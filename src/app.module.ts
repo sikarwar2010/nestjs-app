@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
-import { AuthModule } from './auth/auth.module';
+import { ProductModule } from './products/product.module';
 
 @Module({
-    imports: [AuthModule],
+    imports: [ProductModule],
     controllers: [],
     providers: [],
 })
